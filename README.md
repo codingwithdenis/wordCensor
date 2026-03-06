@@ -12,24 +12,33 @@ Ferramenta desktop para Windows que borra informações sensíveis (e-mails, nom
 - Desfoque gaussiano com borda suavizada
 - Exportação em MP4 com áudio original preservado (via FFmpeg)
 
-## Requisitos
+## Download
 
-- Python 3.10+
-- FFmpeg — coloque o `ffmpeg.exe` numa pasta `ffmpeg/` ao lado da raiz do projeto, ou tenha-o no PATH do sistema
+Baixe o arquivo `wordCensor_portable.zip` na [página de releases](../../releases/latest), extraia e clique duas vezes em `wordCensor.bat`.
 
-## Instalação
+Não requer instalação de Python nem FFmpeg — tudo já está incluso.
+
+## Desenvolvimento
+
+Clone o repositório e instale as dependências:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## Executar
+Coloque o `ffmpeg.exe` na pasta `ffmpeg/` e execute:
 
 ```bash
 python app/main.py
 ```
 
-Ou clique duas vezes em `dev_run.bat` no Windows.
+Ou clique duas vezes em `dev_run.bat`.
+
+Para gerar uma nova versão portátil:
+
+```bash
+build_portable.bat
+```
 
 ## Como usar
 
