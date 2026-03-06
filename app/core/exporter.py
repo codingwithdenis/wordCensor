@@ -49,6 +49,7 @@ def export_video(input_path, output_path, regions, tracker, ffmpeg_path, progres
             stdin=subprocess.PIPE,
             stdout=subprocess.DEVNULL,
             stderr=subprocess.PIPE,
+            creationflags=subprocess.CREATE_NO_WINDOW,
         )
     except FileNotFoundError:
         raise RuntimeError(

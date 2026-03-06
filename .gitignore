@@ -18,6 +18,9 @@ env/
 dist/
 build/
 
+# Portable build output
+dist_portable/
+
 # FFmpeg binary (too large for git — user provides their own)
 ffmpeg/
 
