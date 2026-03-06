@@ -55,3 +55,7 @@ app/
     video_canvas.py     # Widget de exibição de vídeo e desenho de regiões
     timeline_markers.py # Barra de timeline mostrando os intervalos de cada região
 ```
+
+---
+
+Criado com [Claude Code](https://claude.ai/claude-code)
